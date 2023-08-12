@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSMP Contacts</title>
+
+</head>
+<style>
+body {
+background-image:url("https://i.ibb.co/LtQLzBr/Picsart-23-08-11-12-20-21-896.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+      /* Style the menu button */
+        .menu-btn {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        /* Style the dots */
+        .dots {
+            width: 30px;
+            height: 4px;
+            background-color: #333;
+            margin: 6px 0;
+        }
+
+        /* Style the dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style the dropdown links */
+        .dropdown-content a {
+            color:black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+.sub{
+    text-align:center ;
+    
+    
+}
+.subb{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color:Red;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align:center;
+}
+.owner{
+    
+    text-align:center;
+    color:white;
+}
+
+.adm{
+    
+    text-align:center;
+    color:white;
+}
+.c{
+    text-align:center;
+    font-size:10px;
+    color:white;
+}
+</style>
+<body>
+
+
+<div class="menu-btn" onclick="toggleDropdown()">
+    <div class="dots"></div>
+    <div class="dots"></div>
+    <div class="dots"></div>
+</div>
+
+<div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#contact">Join Us</a>
+</div></br>
+<div class="owner">
+<h1 class="con">Contact</h1>
+<h2>Owner</h2>
+
+<h3 class="own">GamerBhoid</h3>
+<p class="ownp">
+Email- gamingayush19@gmail.com
+</div>
+</br>
+<div class="sub">
+<a href="https://youtube.com/@GamerBhoid"><button class="subb">Subscribe On Youtube</button></a>
+</p> </br>
+</div>
+<div class="adm">
+<h2>Admin</h2>
+<p>
+Email- udas44647@gmail.com 
+</p>
+<a href="https://youtube.com/@nathan_playzz"><button class="subb">Subscribe On Youtube</button></a>
+<p class="c">&copy; 2023 &nbsp;|&nbsp; v1.0<br>Created by <a href="https://youtube.com/@GamerBhoid">GamerBhoid</a></p>
+<script>
+   function toggleDropdown() {
+            var dropdown = document.getElementById("myDropdown");
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
+    
+    
+    
+</script>
+</body>
